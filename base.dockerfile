@@ -4,7 +4,7 @@ ARG NV_RELEASE=25.11
 FROM nvcr.io/nvidia/tensorrt:${NV_RELEASE}-py3 AS builder
 
 
-FROM hieupth/mamba:${NV_RELEASE}
+FROM hieupth/mamba:24.04
 
 RUN conda install -y \
       rattler-build \
