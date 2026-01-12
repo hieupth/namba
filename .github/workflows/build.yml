@@ -5,7 +5,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "dockerfile"
+      - "base.dockerfile"
       - ".github/workflows/build.yml"
 
 jobs:
